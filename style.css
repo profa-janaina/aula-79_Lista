@@ -1,0 +1,72 @@
+body{
+    text-align: center;    
+    background-image: url("https://tm.ibxk.com.br/2019/09/30/30091641838086.jpg?ims=1120x420");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h3{
+    font-family: fantasy;  
+    font-size: 50px;  
+    color: yellow;
+    -webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: blue;
+}
+
+img{
+    width: 90%;
+}
+
+#img1{    
+    display: none;
+}
+
+#btnLista{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    background-color: yellow;
+    font-size: large;
+    border-color: white;
+}
+
+/* Parte a ser criada pelo aluno*/
+span{
+    color: white; 
+    font-weight: bold;
+}
+
+input{
+    margin: 10px;
+}
+
+#mostrarNome{
+    font-size: 35px;
+    font-family: fantasy;  
+    color: rgb(255, 217, 0);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: blue;
+    position: fixed;
+    top: 85%;
+    left: 30%;
+    text-align: center;
+}
+
+#btnEnviar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    background-color: yellow;
+    font-size: large;
+    border-color: white;
+}
+#btnOrganizar{    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: yellow;
+    background-color: blue;
+    font-size: large;
+    display: none;
+    border-color: white;
+}

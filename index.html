@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presença</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h3>Lista de Pokémons</h3>
+    <div id="img1">
+        <img onclick="esconder()" src="https://thetoyzone.com/wp-content/uploads/2021/03/08-most-searced-pokemon-poster.png">
+    </div>  
+
+<button onclick="lista()" id="btnLista">Ver Pokémons</button>
+
+<!--Parte a ser criada pelo aluno-->
+
+    <div>
+        <span>1</span>
+        <input type="text" placeholder="Nome do Pokémon" id="nome1">
+        <br>
+
+        <span>2</span>
+        <input type="text" placeholder="Nome do Pokémon" id="nome2">
+        <br>
+
+        <span>3</span>
+        <input type="text" placeholder="Nome do Pokémon" id="nome3">
+        <br>
+
+        <span>4</span>
+        <input type="text" placeholder="Nome do Pokémon" id="nome4">
+        <br>
+    </div>
+    
+
+    <button onclick="enviar()" id="btnEnviar">Enviar</button>    
+    <button onclick="organizar()" id="btnOrganizar">Organizar</button>
+    <div id="mostrarNome"></div>
+    <div ></div>
+</body>
+</html>
